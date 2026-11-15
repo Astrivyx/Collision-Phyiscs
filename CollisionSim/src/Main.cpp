@@ -102,15 +102,15 @@ GLuint vao , vbo;
         {
             Circles[I].Xpos = (WorldSize)-Circles[I].Radius;
         }
-        if (Circles[I].Xpos-Circles[I].Radius < -(WorldSize))
+        else if (Circles[I].Xpos-Circles[I].Radius < -(WorldSize))
         {
             Circles[I].Xpos = -(WorldSize)+Circles[I].Radius;
         }
-        if (Circles[I].Ypos+Circles[I].Radius > (WorldSize))
+        else if (Circles[I].Ypos+Circles[I].Radius > (WorldSize))
         {
             Circles[I].Ypos = (WorldSize)-Circles[I].Radius;
         }
-        if (Circles[I].Ypos-Circles[I].Radius < -(WorldSize))
+        else if (Circles[I].Ypos-Circles[I].Radius < -(WorldSize))
         {
             Circles[I].Ypos = -(WorldSize)+Circles[I].Radius;
         }
@@ -124,21 +124,21 @@ GLuint vao , vbo;
         {
            if (I!=i)
            {
-            double dx = Circles[i].Xpos-X;
-            double dy = Circles[i].Ypos-Y;
-            double dis = std::sqrt(dx*dx+dy*dy);
-            if (dis != 0)
-            { 
-                double nx = dx / dis;
-                double ny = dy / dis;
-                if (dis < Circles[I].Radius+Circles[i].Radius)
-                {
-                    Circles[i].Xvel += nx;
-                    Circles[i].Yvel += ny;
-                    Circles[I].Xvel += -nx;
-                    Circles[I].Yvel += -ny;
+                double dx = Circles[i].Xpos-X;
+                double dy = Circles[i].Ypos-Y;
+                double dis = std::sqrt(dx*dx+dy*dy);
+                if (dis != 0)
+                { 
+                    double nx = dx / dis;
+                    double ny = dy / dis;
+                    if (dis < Circles[I].Radius+Circles[i].Radius)
+                    {
+                        Circles[i].Xvel += nx;
+                        Circles[i].Yvel += ny;
+                        Circles[I].Xvel += -nx;
+                        Circles[I].Yvel += -ny;
+                    }
                 }
-            }
            }
         }
     }
