@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim/build"
+			"value" : "c:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -359,7 +359,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -455,7 +455,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1011,10 +1011,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a CMake toolchain file, read early in the CMake run, that specifies the compilers, toolchain utilities, and target-platform information used when cross-compiling."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "FILEPATH",
 			"value" : "C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake"
 		},
 		{
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim/build"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim/build"
 		},
 		{
 			"name" : "CollisionSim_IS_TOP_LEVEL",
@@ -1079,7 +1079,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1171,7 +1171,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim/build/vcpkg_installed"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim/build/vcpkg_installed"
 		},
 		{
 			"name" : "VCPKG_INSTALL_OPTIONS",
@@ -1195,7 +1195,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim"
 		},
 		{
 			"name" : "VCPKG_MANIFEST_INSTALL",
@@ -1403,7 +1403,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim/build/vcpkg_installed"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim/build/vcpkg_installed"
 		},
 		{
 			"name" : "glad_DIR",
@@ -1415,7 +1415,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim/build/vcpkg_installed/x64-windows/share/glad"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim/build/vcpkg_installed/x64-windows/share/glad"
 		},
 		{
 			"name" : "glfw3_DIR",
@@ -1427,7 +1427,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim/build/vcpkg_installed/x64-windows/share/glfw3"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim/build/vcpkg_installed/x64-windows/share/glfw3"
 		},
 		{
 			"name" : "glm_DIR",
@@ -1439,7 +1439,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/CollisionSim/build/vcpkg_installed/x64-windows/share/glm"
+			"value" : "C:/Users/jrmac/OneDrive/Documents/Physics Sims/Collision Phyiscs/CollisionSim/build/vcpkg_installed/x64-windows/share/glm"
 		}
 	],
 	"kind" : "cache",
