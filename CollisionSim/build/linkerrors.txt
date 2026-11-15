@@ -1,0 +1,8 @@
+================================================================================
+Linker Errors
+Generated: 2026-11-15T03:25:56.466Z
+Total Errors: 1
+================================================================================
+
+[LNK1168] (MSVC)
+cannot open C:\Users\jrmac\OneDrive\Documents\Physics Sims\CollisionSim\build\Debug\CollisionSim.exe for writing [C:\Users\jrmac\OneDrive\Documents\Physics Sims\CollisionSim\build\CollisionSim.vcxproj]
